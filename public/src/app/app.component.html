@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<div *ngFor="let a of animals">
+  <h2> {{ a.name }} </h2>
+  <p> {{ a.weight }} </p>
+  <p> {{ a.color }} </p>
+  <p> {{ a.favoriteFood }} </p>
+</div>
+<router-outlet></router-outlet>
